@@ -1,0 +1,358 @@
+.price{
+    background-image: url(/img/bg_price.png);
+}
+
+.price__title{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.price-buttons__list{
+    padding-bottom: 100px;
+}
+
+.price-buttons__item{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.price-button{
+    position: relative;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+    text-align: left;
+    padding: 20px 30px;
+    border-radius: 4px;
+    
+}
+
+.price-button::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/arrow_bottom.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 30px;
+    border-radius: 4px;
+}
+
+
+.price-button_pushed{
+    position: relative;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+    text-align: left;
+    padding: 20px 30px;
+    background: linear-gradient(180deg, #FBCA4E 0%, #F8B200 100%);
+    border-radius: 4px;
+    
+}
+
+.price-button_pushed::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/arrow_top.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 30px;
+    border-radius: 4px;
+}
+
+
+.price-info__item{
+    max-width: 1280px;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.laser-photo{
+    margin-bottom: 40px;
+}
+
+/*STICKER-STYLE*/
+
+.price-sticker__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EAE3E3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 25px 16px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+.sticker-logo{
+    height: 36px;
+}
+
+
+.sticker-text{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333131;
+    margin: 16px 0;
+}
+
+.sticker-count{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    color: #706B6B;
+}
+
+.old-count{
+    text-decoration: line-through;
+    text-decoration-color: #FBB500;
+}
+
+
+.sticker-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333131;
+}
+
+
+.sticker-title_big{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333131;
+    text-align: center;
+}
+
+.sticker-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.sticker-column_title{
+    margin-right: 40px;
+}
+
+.sticker-column_old-count{
+    margin-right: 20px;
+}
+
+.sticker-text_column-title{
+    margin: 0;
+}
+
+.sticker-wrapper{
+    display: flex;
+
+}
+
+
+.big-sticker{
+    max-width: 580px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+.sticker-title{
+    margin-bottom: 20px;
+}
+
+.big-sticker_row{
+    margin-bottom: 20px;
+}
+
+.price-sticker__item:nth-child(2)  .sticker-text_column-title{
+    max-width: 160px;
+    margin-bottom: 15px;
+}
+
+.big-epilation-sticker:nth-child(2) .old-count,
+.big-epilation-sticker:nth-child(2) .sticker-count{
+    margin-bottom: 37px;
+}
+/*EPILATION*/
+
+.epilation-sticker__list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   max-width: 600px;
+}
+
+.big-sticker__list{
+   max-width: 570px;
+}
+
+.epilation-info-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.laser-sticker__list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.pilling-photo{
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.laser-info-block{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.laser-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cavitation-stiker__list{
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sticker-title_big{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.cavitation-stiker__list > li:nth-child(2) > .sticker-text:nth-child(3){
+    margin-top: 2px;
+}
+
+.cavitation-stiker__list > li:nth-child(2) > .sticker-text:nth-child(2){
+    margin-bottom: 2px;
+}
+
+.cavitation-count-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.cavitation-count-wrapper .sticker-title_big{
+    margin: 0;
+    line-height: 30px;
+    margin-right: 15px;
+}
+
+.cavitation-info-block{
+    max-width: 850px;
+}
+
+.cavitation-block{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.delete-tatoo-sticker__list{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.delete-tatoo-block{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.delete-tatoo-block p{
+    margin-bottom: 30px;
+}
+
+.sale-count-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.sale-sticker__list .sticker-text{
+    margin-bottom: 0;
+    line-height: 15px;
+    transform: translateY(-5px);
+}
+
+
+.sale-count-wrapper .sticker-column:nth-child(1){
+    margin-right: 10px;
+}
+
+.sale-count-wrapper .sticker-column:nth-child(2){
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.sale-sticker__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sale-info{
+    max-width: 580px;
+}
+
+.sale-block img{
+    max-width: 280px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.sale-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.sale-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}

@@ -1,0 +1,83 @@
+.about-us{
+    background-image: url(/img/bg_about.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.about-us__wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+.yellow-letters-wrapper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+}
+
+.about-us__year-block{
+    position: relative;
+    
+}
+
+.about-us__amount-block{
+    position: relative;
+    background-image: url(/img/more.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+
+.year-text{
+    font-size: 24px;
+    position: absolute;
+    bottom: 7px;
+    left: 90px;
+    width: 300px;
+}
+
+.amount-pic{
+   margin-left: 80px;
+}
+
+.amount-text{
+    font-size: 24px;
+    position: absolute;
+    bottom: 7px;
+    left: 102px;
+    width: 300px;
+}
+
+.laser-photo{
+    margin-right: 20px;
+   
+    
+}
+
+
+.regular-text{
+   max-width: 850px;
+}
+
+
+
+.certificate-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 44px;
+    margin-bottom: 50px;
+}
+
+.certificate_list__item{
+    margin-bottom: 10px;
+}

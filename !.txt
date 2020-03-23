@@ -1,0 +1,59 @@
+HEADER TITLE
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 82px;
+
+/* or 114% */
+
+color: #FFFCFC;
+
+--------------------
+
+REGULAR PAGE TEXT
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+/* or 171% */
+
+color: #000000;
+
+
+
+(bold)
+
+
+
+
+JS CLASS
+
+banner-button
+
+
+price-button_laser
+
+price-button_carbon
+
+price-button_cavitation
+
+price-button_delete-tatoo
+
+price-button_sale
+
+
+
+price-block_laser
+
+price-block_carbon
+
+price-block_cavitation
+
+price-block_delete-tatoo
+
+price-block_sale
